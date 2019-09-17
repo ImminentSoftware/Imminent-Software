@@ -3,25 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C29BF2326704600BCBE5E /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C29BE2326704600BCBE5E /* MyOrderTableViewCell.swift */; };
+		046A3EE22329203500D55176 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A3EE12329203500D55176 /* ImageModel.swift */; };
+		046A3EE72329238400D55176 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A3EE62329238400D55176 /* ImageViewModel.swift */; };
+		046A3EEA2329275300D55176 /* ApiInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A3EE92329275300D55176 /* ApiInteraction.swift */; };
 		046F83AB231F91E300AE3C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83AA231F91E300AE3C5F /* AppDelegate.swift */; };
-		046F83AD231F91E300AE3C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83AC231F91E300AE3C5F /* ViewController.swift */; };
 		046F83B0231F91E300AE3C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F83AE231F91E300AE3C5F /* Main.storyboard */; };
 		046F83B2231F91E900AE3C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F83B1231F91E900AE3C5F /* Assets.xcassets */; };
 		046F83B5231F91E900AE3C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F83B3231F91E900AE3C5F /* LaunchScreen.storyboard */; };
+		046F83BE231F965900AE3C5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83BD231F965900AE3C5F /* HomeViewController.swift */; };
+		046F83C1231F99DC00AE3C5F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83C0231F99DC00AE3C5F /* Extension.swift */; };
+		046F83C5231FDFA400AE3C5F /* Poppins-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83C4231FDFA400AE3C5F /* Poppins-SemiBoldItalic.otf */; };
+		046F83C7231FDFAF00AE3C5F /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83C6231FDFAF00AE3C5F /* Poppins-Regular.otf */; };
+		046F83C9231FDFB900AE3C5F /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83C8231FDFB800AE3C5F /* Poppins-Medium.otf */; };
+		046F83CB231FDFC000AE3C5F /* Poppins-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83CA231FDFC000AE3C5F /* Poppins-MediumItalic.otf */; };
+		046F83CD231FDFCE00AE3C5F /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83CC231FDFCE00AE3C5F /* Poppins-Light.otf */; };
+		046F83CF231FDFDC00AE3C5F /* Poppins-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83CE231FDFDC00AE3C5F /* Poppins-BoldItalic.otf */; };
+		046F83D1231FDFE500AE3C5F /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83D0231FDFE500AE3C5F /* Poppins-Bold.otf */; };
+		046F83D2231FE0A500AE3C5F /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 046F83C3231FDF9000AE3C5F /* Poppins-SemiBold.otf */; };
+		046F83D4231FE57200AE3C5F /* GeneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83D3231FE57200AE3C5F /* GeneralInfoViewController.swift */; };
+		046F83D6231FEAC300AE3C5F /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83D5231FEAC300AE3C5F /* AddressViewController.swift */; };
+		046F83D8231FF12700AE3C5F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F83D7231FF12700AE3C5F /* SettingsViewController.swift */; };
+		04AB0DE1232B62F3005C523A /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0DE0232B62F3005C523A /* CountryListViewController.swift */; };
+		04AB0DE3232B6795005C523A /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0DE2232B6795005C523A /* CountryTableViewCell.swift */; };
+		04AB0DE5232B729A005C523A /* HomeAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0DE4232B729A005C523A /* HomeAddressViewController.swift */; };
+		04DD31DD232774A900761C7E /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD31DC232774A900761C7E /* SelectedViewController.swift */; };
+		04DD31DF2327D7C100761C7E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD31DE2327D7C100761C7E /* Constant.swift */; };
+		04E6702023221E0000EFE20F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6701F23221E0000EFE20F /* HomeTableViewCell.swift */; };
+		04E670222322938D00EFE20F /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E670212322938D00EFE20F /* MyOrderViewController.swift */; };
+		9F1F53E3A452FC37F371BF3A /* Pods_MyPassportPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D3CCAEEB22321949C3BD9 /* Pods_MyPassportPhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042C29BE2326704600BCBE5E /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		046A3EE12329203500D55176 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		046A3EE62329238400D55176 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		046A3EE92329275300D55176 /* ApiInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiInteraction.swift; sourceTree = "<group>"; };
 		046F83A7231F91E300AE3C5F /* MyPassportPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPassportPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046F83AA231F91E300AE3C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		046F83AC231F91E300AE3C5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		046F83AF231F91E300AE3C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046F83B1231F91E900AE3C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046F83B4231F91E900AE3C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046F83B6231F91E900AE3C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F83BD231F965900AE3C5F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		046F83C0231F99DC00AE3C5F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		046F83C3231FDF9000AE3C5F /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		046F83C4231FDFA400AE3C5F /* Poppins-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		046F83C6231FDFAF00AE3C5F /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		046F83C8231FDFB800AE3C5F /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		046F83CA231FDFC000AE3C5F /* Poppins-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.otf"; sourceTree = "<group>"; };
+		046F83CC231FDFCE00AE3C5F /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.otf"; sourceTree = "<group>"; };
+		046F83CE231FDFDC00AE3C5F /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
+		046F83D0231FDFE500AE3C5F /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		046F83D3231FE57200AE3C5F /* GeneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewController.swift; sourceTree = "<group>"; };
+		046F83D5231FEAC300AE3C5F /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		046F83D7231FF12700AE3C5F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04AB0DE0232B62F3005C523A /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		04AB0DE2232B6795005C523A /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		04AB0DE4232B729A005C523A /* HomeAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAddressViewController.swift; sourceTree = "<group>"; };
+		04DD31DC232774A900761C7E /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		04DD31DE2327D7C100761C7E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		04E6701F23221E0000EFE20F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		04E670212322938D00EFE20F /* MyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
+		145505B780F2AB087A2364E9 /* Pods-MyPassportPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPassportPhoto.release.xcconfig"; path = "Target Support Files/Pods-MyPassportPhoto/Pods-MyPassportPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		1E7A20D27C5B5FBF6C6D927E /* Pods-MyPassportPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPassportPhoto.debug.xcconfig"; path = "Target Support Files/Pods-MyPassportPhoto/Pods-MyPassportPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		A62D3CCAEEB22321949C3BD9 /* Pods_MyPassportPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPassportPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1F53E3A452FC37F371BF3A /* Pods_MyPassportPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046A3EE023291FEE00D55176 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				046A3EE12329203500D55176 /* ImageModel.swift */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+		046A3EE32329225E00D55176 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				046A3EE62329238400D55176 /* ImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		046F839E231F91E300AE3C5F = {
 			isa = PBXGroup;
 			children = (
 				046F83A9231F91E300AE3C5F /* MyPassportPhoto */,
 				046F83A8231F91E300AE3C5F /* Products */,
+				FA21C72B592FC05E8C5A766C /* Pods */,
+				E1ACFC6D36AB043FB2780228 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,78 @@
 		046F83A9231F91E300AE3C5F /* MyPassportPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				046A3EE32329225E00D55176 /* ViewModel */,
+				046A3EE023291FEE00D55176 /* Model Class */,
+				046F83C2231FDF6F00AE3C5F /* Font */,
+				046F83BF231F99B700AE3C5F /* Supporting Files */,
+				046F83BC231F964400AE3C5F /* Controller */,
 				046F83AA231F91E300AE3C5F /* AppDelegate.swift */,
-				046F83AC231F91E300AE3C5F /* ViewController.swift */,
 				046F83AE231F91E300AE3C5F /* Main.storyboard */,
 				046F83B1231F91E900AE3C5F /* Assets.xcassets */,
 				046F83B3231F91E900AE3C5F /* LaunchScreen.storyboard */,
 				046F83B6231F91E900AE3C5F /* Info.plist */,
 			);
 			path = MyPassportPhoto;
+			sourceTree = "<group>";
+		};
+		046F83BC231F964400AE3C5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046F83BD231F965900AE3C5F /* HomeViewController.swift */,
+				046F83D3231FE57200AE3C5F /* GeneralInfoViewController.swift */,
+				046F83D5231FEAC300AE3C5F /* AddressViewController.swift */,
+				046F83D7231FF12700AE3C5F /* SettingsViewController.swift */,
+				04E6701F23221E0000EFE20F /* HomeTableViewCell.swift */,
+				04E670212322938D00EFE20F /* MyOrderViewController.swift */,
+				042C29BE2326704600BCBE5E /* MyOrderTableViewCell.swift */,
+				04DD31DC232774A900761C7E /* SelectedViewController.swift */,
+				04AB0DE0232B62F3005C523A /* CountryListViewController.swift */,
+				04AB0DE2232B6795005C523A /* CountryTableViewCell.swift */,
+				04AB0DE4232B729A005C523A /* HomeAddressViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046F83BF231F99B700AE3C5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046F83C0231F99DC00AE3C5F /* Extension.swift */,
+				04DD31DE2327D7C100761C7E /* Constant.swift */,
+				046A3EE92329275300D55176 /* ApiInteraction.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046F83C2231FDF6F00AE3C5F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				046F83CE231FDFDC00AE3C5F /* Poppins-BoldItalic.otf */,
+				046F83CA231FDFC000AE3C5F /* Poppins-MediumItalic.otf */,
+				046F83D0231FDFE500AE3C5F /* Poppins-Bold.otf */,
+				046F83CC231FDFCE00AE3C5F /* Poppins-Light.otf */,
+				046F83C6231FDFAF00AE3C5F /* Poppins-Regular.otf */,
+				046F83C8231FDFB800AE3C5F /* Poppins-Medium.otf */,
+				046F83C3231FDF9000AE3C5F /* Poppins-SemiBold.otf */,
+				046F83C4231FDFA400AE3C5F /* Poppins-SemiBoldItalic.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		E1ACFC6D36AB043FB2780228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62D3CCAEEB22321949C3BD9 /* Pods_MyPassportPhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA21C72B592FC05E8C5A766C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A20D27C5B5FBF6C6D927E /* Pods-MyPassportPhoto.debug.xcconfig */,
+				145505B780F2AB087A2364E9 /* Pods-MyPassportPhoto.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046F83B9231F91E900AE3C5F /* Build configuration list for PBXNativeTarget "MyPassportPhoto" */;
 			buildPhases = (
+				7F9FCC6B289D6F072C061EC5 /* [CP] Check Pods Manifest.lock */,
 				046F83A3231F91E300AE3C5F /* Sources */,
 				046F83A4231F91E300AE3C5F /* Frameworks */,
 				046F83A5231F91E300AE3C5F /* Resources */,
+				60684D4A17607FC2ADB4619E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +257,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046F83CB231FDFC000AE3C5F /* Poppins-MediumItalic.otf in Resources */,
+				046F83C5231FDFA400AE3C5F /* Poppins-SemiBoldItalic.otf in Resources */,
+				046F83D1231FDFE500AE3C5F /* Poppins-Bold.otf in Resources */,
 				046F83B5231F91E900AE3C5F /* LaunchScreen.storyboard in Resources */,
+				046F83C9231FDFB900AE3C5F /* Poppins-Medium.otf in Resources */,
 				046F83B2231F91E900AE3C5F /* Assets.xcassets in Resources */,
 				046F83B0231F91E300AE3C5F /* Main.storyboard in Resources */,
+				046F83D2231FE0A500AE3C5F /* Poppins-SemiBold.otf in Resources */,
+				046F83CD231FDFCE00AE3C5F /* Poppins-Light.otf in Resources */,
+				046F83C7231FDFAF00AE3C5F /* Poppins-Regular.otf in Resources */,
+				046F83CF231FDFDC00AE3C5F /* Poppins-BoldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60684D4A17607FC2ADB4619E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPassportPhoto/Pods-MyPassportPhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPassportPhoto/Pods-MyPassportPhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPassportPhoto/Pods-MyPassportPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F9FCC6B289D6F072C061EC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPassportPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		046F83A3231F91E300AE3C5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046F83AD231F91E300AE3C5F /* ViewController.swift in Sources */,
+				046F83C1231F99DC00AE3C5F /* Extension.swift in Sources */,
+				04AB0DE1232B62F3005C523A /* CountryListViewController.swift in Sources */,
+				046A3EEA2329275300D55176 /* ApiInteraction.swift in Sources */,
 				046F83AB231F91E300AE3C5F /* AppDelegate.swift in Sources */,
+				04E6702023221E0000EFE20F /* HomeTableViewCell.swift in Sources */,
+				046F83BE231F965900AE3C5F /* HomeViewController.swift in Sources */,
+				046F83D6231FEAC300AE3C5F /* AddressViewController.swift in Sources */,
+				046F83D4231FE57200AE3C5F /* GeneralInfoViewController.swift in Sources */,
+				046F83D8231FF12700AE3C5F /* SettingsViewController.swift in Sources */,
+				04AB0DE5232B729A005C523A /* HomeAddressViewController.swift in Sources */,
+				04DD31DD232774A900761C7E /* SelectedViewController.swift in Sources */,
+				04DD31DF2327D7C100761C7E /* Constant.swift in Sources */,
+				042C29BF2326704600BCBE5E /* MyOrderTableViewCell.swift in Sources */,
+				04AB0DE3232B6795005C523A /* CountryTableViewCell.swift in Sources */,
+				046A3EE22329203500D55176 /* ImageModel.swift in Sources */,
+				04E670222322938D00EFE20F /* MyOrderViewController.swift in Sources */,
+				046A3EE72329238400D55176 /* ImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +480,17 @@
 		};
 		046F83BA231F91E900AE3C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7A20D27C5B5FBF6C6D927E /* Pods-MyPassportPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3G46QFL8YT;
+				DEVELOPMENT_TEAM = ZZGNKKHCD7;
 				INFOPLIST_FILE = MyPassportPhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ambika.com.MyPassportPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.immenent.reminderBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +499,17 @@
 		};
 		046F83BB231F91E900AE3C5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145505B780F2AB087A2364E9 /* Pods-MyPassportPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3G46QFL8YT;
+				DEVELOPMENT_TEAM = ZZGNKKHCD7;
 				INFOPLIST_FILE = MyPassportPhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ambika.com.MyPassportPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.immenent.reminderBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

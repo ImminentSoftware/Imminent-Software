@@ -7,15 +7,40 @@
 //
 
 import UIKit
+import IQKeyboardManager
+import LGSideMenuController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Keyboard
+     IQKeyboardManager.shared().isEnabled = true
+        
+        //Side Menu
+        let rootViewController = mainStoryboard.instantiateViewController(withIdentifier: "HomeViewController")as! HomeViewController
+        let leftViewController = mainStoryboard.instantiateViewController(withIdentifier: "SettingsViewController")as! SettingsViewController
+        
+        let navigationController = UINavigationController(rootViewController: rootViewController)
+         navigationController.isNavigationBarHidden = true
+        
+        let sideMenuController = LGSideMenuController(rootViewController: navigationController,
+                                                      leftViewController: leftViewController,
+                                                      rightViewController: nil)
+        
+        sideMenuController.leftViewWidth = 300.0;
+        sideMenuController.leftViewPresentationStyle = .slideAbove;
+    
+      
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = sideMenuController
+        
+        UIView.transition(with: window!, duration: 0.3, options: [.transitionCrossDissolve], animations: nil, completion: nil)
+        
+        
         return true
     }
 
