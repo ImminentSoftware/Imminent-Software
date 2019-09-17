@@ -32,6 +32,7 @@ class HomeViewController: UIViewController ,UINavigationControllerDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello")
+        print("Hi")
         // set image_container_view...
         self.tableView.reloadData()
         self.progressView.currentIndex = 0

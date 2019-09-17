@@ -1,0 +1,36 @@
+PODS:
+  - ABSteppedProgressBar (0.2.2)
+  - Alamofire (4.8.2)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManager (6.4.0)
+  - Kingfisher (5.7.0)
+  - LGSideMenuController (2.1.1)
+
+DEPENDENCIES:
+  - ABSteppedProgressBar
+  - Alamofire
+  - iOSDropDown
+  - IQKeyboardManager
+  - Kingfisher
+  - LGSideMenuController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ABSteppedProgressBar
+    - Alamofire
+    - iOSDropDown
+    - IQKeyboardManager
+    - Kingfisher
+    - LGSideMenuController
+
+SPEC CHECKSUMS:
+  ABSteppedProgressBar: a8860622d192e55a13f64d8830e25e29c1e3f471
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+
+PODFILE CHECKSUM: 5734a23544f60620f16593c73721fedf718b7c34
+
+COCOAPODS: 1.7.3

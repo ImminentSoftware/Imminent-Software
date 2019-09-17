@@ -1,0 +1,6 @@
+framework module Pods_MyPassportPhoto {
+  umbrella header "Pods-MyPassportPhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}
